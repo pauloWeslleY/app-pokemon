@@ -20,7 +20,7 @@ export default function Section() {
       <>
          <Container>
             <Row>
-               <h1 className='title__section'>Generation</h1>
+               <h1 className='title__generation'>Generation</h1>
                {generation.map(gene => {
                   return (
                      <>
@@ -29,6 +29,7 @@ export default function Section() {
                               body
                               color='info'
                               outline
+                              className='card__generation'
                            >
                               <CardBody>
                                  <CardTitle tag='h5'>

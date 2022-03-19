@@ -13,7 +13,7 @@ code {
 }
 
 .line__hr {
-   margin: 3rem 0;
+   margin-bottom: 3rem;
    color: #000;
    background-color: #000;
    border: 0;

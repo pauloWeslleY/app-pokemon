@@ -6,6 +6,8 @@ import Slider from '../../components/Slider/Slider'
 import Generation from '../../components/Generation/Generation'
 import Nature from '../../components/Nature/Nature'
 
+import PokeImage from '../../components/PokeImage/PokeImage'
+
 import {
    Container,
    Row
@@ -13,6 +15,7 @@ import {
 
 // css
 import '../../index.css'
+import './main.css'
 
 export default function Main() {
    return (
@@ -25,6 +28,9 @@ export default function Main() {
                <Generation />
                <hr className='line__hr' />
                <Nature />
+               <hr className='line__hr' />
+               <PokeImage />
+               <hr className='line__hr' />
             </Row>
          </Container>
       </>

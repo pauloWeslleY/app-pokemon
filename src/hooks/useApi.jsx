@@ -1,9 +1,8 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import axios from "axios"
 import { useEffect, useState } from "react"
 
 const api = axios.create({
-   baseURL: 'https://pokeapi.co/api/v2'
+   baseURL: `https://pokeapi.co/api/v2/`
 })
 
 export function useApi(url) {
@@ -22,7 +21,7 @@ export function useApi(url) {
          .finally(() => {
             setIsFatching(false)
          })
-   }, [])
+   }, [url])
 
-   return { data, error, isFetching }
+   return { data, error, isFetching}
 }

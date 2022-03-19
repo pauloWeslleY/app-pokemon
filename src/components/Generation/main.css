@@ -1,3 +1,7 @@
-.title__section {
+.title__generation {
    text-align: center;
+}
+
+.card__generation {
+   margin: 1rem;
 }

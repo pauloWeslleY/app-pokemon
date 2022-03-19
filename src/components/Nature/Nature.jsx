@@ -32,7 +32,7 @@ export default function Nature() {
                      <>
                         <Col key={nature}>
                            <CardGroup>
-                              <Card>
+                              <Card className='card__nature'>
                                  <CardBody>
                                     <CardTitle tag='h5'>
                                        {nature.name}
